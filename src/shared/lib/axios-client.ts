@@ -1,7 +1,8 @@
 import axios from "axios";
+import { API_URL } from '@/shared/config'
 
 const options = {
-  baseURL: 'http://localhost:4000',
+  baseURL: API_URL,
   withCredentials: true,
   timeout: 10000,
 };
